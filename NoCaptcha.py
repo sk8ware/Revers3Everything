@@ -9,8 +9,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 
-# Arte ASCII ascii_art = r""" 
-  
+# Arte ASCII
+ascii_art = r""" 
    ▄████████  ▄█   ▄█          ▄████████ ███▄▄▄▄       ███     ▀█████████▄  ▄██   ▄      ▄███████▄    ▄████████    ▄████████    ▄████████ 
   ███    ███ ███  ███         ███    ███ ███▀▀▀██▄ ▀█████████▄   ███    ███ ███   ██▄   ███    ███   ███    ███   ███    ███   ███    ███ 
   ███    █▀  ███▌ ███         ███    █▀  ███   ███    ▀███▀▀██   ███    ███ ███▄▄▄███   ███    ███   ███    ███   ███    █▀    ███    █▀  
