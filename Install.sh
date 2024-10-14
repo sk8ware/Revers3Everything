@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Nombre del entorno virtual
+VENV_DIR="venv"
+
 # Verificar si requirements.txt existe
 if [ ! -f requirements.txt ]; then
     echo "[!] El archivo requirements.txt no se encontró. Creando el archivo..."
@@ -7,9 +10,19 @@ if [ ! -f requirements.txt ]; then
     echo "[+] requirements.txt ha sido creado con el contenido necesario."
 fi
 
-# Instalar dependencias de Python
-echo "[+] Instalando dependencias de Python..."
-pip3 install -r requirements.txt
+# Verificar si el entorno virtual ya existe
+if [ ! -d "$VENV_DIR" ]; then
+    echo "[+] No se encontró el entorno virtual. Creándolo..."
+    python3 -m venv "$VENV_DIR"
+    echo "[+] Entorno virtual creado."
+fi
+
+# Activar el entorno virtual
+source "$VENV_DIR/bin/activate"
+
+# Instalar dependencias de Python dentro del entorno virtual
+echo "[+] Instalando dependencias de Python dentro del entorno virtual..."
+pip install -r requirements.txt
 
 # Descargar e instalar Geckodriver si no está disponible
 if ! command -v geckodriver &> /dev/null
@@ -25,3 +38,5 @@ fi
 
 echo "[+] Configuración completada. Ahora puedes ejecutar el script."
 
+# Desactivar el entorno virtual al finalizar
+deactivate
