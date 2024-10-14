@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da035548f0b6fdf5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SilentBypass/SilentBypass.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "59658e4e9c7c49a9",
             "type": "leaf",
             "state": {
@@ -38,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "Install.sh.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d26c862f7e9a3172",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NoCaptcha.py.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Install.sh.md",
+                "file": "NoCaptcha.py.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Install.sh.md",
+                "file": "NoCaptcha.py.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Install.sh.md"
+                "file": "NoCaptcha.py.md"
               }
             }
           }
@@ -172,12 +172,13 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "cd0ec61cc0187b1b",
+  "active": "d26c862f7e9a3172",
   "lastOpenFiles": [
-    "README.md",
     "Install.sh.md",
-    "README.md.md",
+    "NoCaptcha.py.md",
     "SilentBypass/SilentBypass.md",
+    "README.md",
+    "README.md.md",
     "SilentBypass",
     "Bienvenido.md"
   ]
