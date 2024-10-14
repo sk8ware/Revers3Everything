@@ -1,5 +1,3 @@
-
-```python
 #!/bin/bash
 
 # Verificar si requirements.txt existe
@@ -27,4 +25,3 @@ fi
 
 echo "[+] Configuración completada. Ahora puedes ejecutar el script."
 
-```
