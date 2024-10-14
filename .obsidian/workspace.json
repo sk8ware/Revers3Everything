@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cd0ec61cc0187b1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Install.sh.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Install.sh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Install.sh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Install.sh.md"
               }
             }
           }
@@ -160,10 +172,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "59658e4e9c7c49a9",
+  "active": "cd0ec61cc0187b1b",
   "lastOpenFiles": [
-    "README.md.md",
     "README.md",
+    "Install.sh.md",
+    "README.md.md",
     "SilentBypass/SilentBypass.md",
     "SilentBypass",
     "Bienvenido.md"
