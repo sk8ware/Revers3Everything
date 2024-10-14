@@ -1,5 +1,20 @@
 #!/bin/bash
 
+# Verificar si python3-venv está instalado
+if ! dpkg -l | grep -q python3-venv; then
+    echo "[+] El paquete python3-venv no está instalado. Instalándolo..."
+    sudo apt update
+    sudo apt install -y python3-venv
+    
+    # Verificar si la instalación fue exitosa
+    if [ $? -ne 0 ]; then
+        echo "[!] Error al instalar python3-venv. Asegúrate de tener permisos sudo."
+        exit 1
+    fi
+else
+    echo "[+] python3-venv ya está instalado."
+fi
+
 # Nombre del entorno virtual
 VENV_DIR="venv"
 
@@ -14,11 +29,23 @@ fi
 if [ ! -d "$VENV_DIR" ]; then
     echo "[+] No se encontró el entorno virtual. Creándolo..."
     python3 -m venv "$VENV_DIR"
+    
+    # Verificar si la creación fue exitosa
+    if [ $? -ne 0 ]; then
+        echo "[!] Error al crear el entorno virtual."
+        exit 1
+    fi
+
     echo "[+] Entorno virtual creado."
 fi
 
 # Activar el entorno virtual
-source "$VENV_DIR/bin/activate"
+if [ -f "$VENV_DIR/bin/activate" ]; then
+    source "$VENV_DIR/bin/activate"
+else
+    echo "[!] No se pudo activar el entorno virtual. Verifica si se creó correctamente."
+    exit 1
+fi
 
 # Instalar dependencias de Python dentro del entorno virtual
 echo "[+] Instalando dependencias de Python dentro del entorno virtual..."
@@ -36,7 +63,4 @@ else
     echo "[+] Geckodriver ya está instalado."
 fi
 
-echo "[+] Configuración completada. Ahora puedes ejecutar el script."
-
-# Desactivar el entorno virtual al finalizar
-deactivate
+echo "[+] Configuración completada. El entorno virtual sigue activado. Puedes ejecutar el script ahora."
