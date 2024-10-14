@@ -1,5 +1,3 @@
-
-```python
 import time
 import os
 import argparse
@@ -174,4 +172,3 @@ except Exception as e:
 finally:
     # Cerrar el navegador
     driver.quit()
-```
