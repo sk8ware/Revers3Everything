@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "54fcbfd6da23edb5",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cc138f8338ad85d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da035548f0b6fdf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SilentBypass/SilentBypass.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59658e4e9c7c49a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c4e6bdd1b3d86da",
+    "type": "split",
+    "children": [
+      {
+        "id": "004ff2769b5cee76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "374a743a9ec3437a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5c40cf8fff80c59b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "51d6f7ab290d2749",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "180517f44fd3a514",
+    "type": "split",
+    "children": [
+      {
+        "id": "f69085949cbf5fac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "596247d7f019601e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bdabdb85e2abe7e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c5748e2cc0620c84",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5dea85b1073dce27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "59658e4e9c7c49a9",
+  "lastOpenFiles": [
+    "README.md.md",
+    "README.md",
+    "SilentBypass/SilentBypass.md",
+    "SilentBypass",
+    "Bienvenido.md"
+  ]
+}
