@@ -27,8 +27,8 @@ Sigue los pasos a continuación para instalar las dependencias y configurar el e
 Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/sk8ware/Revers3Everything.git
-cd Revers3Everything
+git clone https://github.com/sk8ware/SilentBypass.git
+cd SilentBypass
 ```
 
 ### 2. Instalar dependencias
